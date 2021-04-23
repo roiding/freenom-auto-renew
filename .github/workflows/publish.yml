@@ -3,7 +3,7 @@ name: Docker Images Publish
 on: 
   push:
      tags:
-       - *
+       - '*'
       
 jobs:
   main:
