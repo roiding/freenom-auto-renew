@@ -1,6 +1,6 @@
 name: Docker Images Publish
 
-on: push
+on: label
       
 jobs:
   main:
