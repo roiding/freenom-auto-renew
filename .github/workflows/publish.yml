@@ -1,9 +1,6 @@
 name: Docker Images Publish
 
-on:
-  push:
-    branches:
-      - master
+on: push
       
 jobs:
   main:
