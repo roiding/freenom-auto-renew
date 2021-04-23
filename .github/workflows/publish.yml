@@ -2,7 +2,8 @@ name: Docker Images Publish
 
 on: 
   push:
-     tags
+     tags:
+       - *
       
 jobs:
   main:
