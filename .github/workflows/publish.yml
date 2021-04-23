@@ -1,8 +1,8 @@
 name: Docker Images Publish
 
 on: 
-  label:
-     types: [created,edited,deleted]
+  push:
+     tags
       
 jobs:
   main:
